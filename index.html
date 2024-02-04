@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d9f33d345d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="./products.css">
+    <title>Home</title>
+    <script src="./common.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Created all as per required and mentioned in the Project.
+          Created 2 section tags and inside that i used full width with container-fluid-->
+    <main>
+      <section>
+        <div class="container-fluid">
+          <figure>
+            <img
+              id="img1"
+              width="100%"
+              src="https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="bgImage"
+            />
+            <figcaption>
+              <h1 class="pt-serif-regular-italic drest1">Drest</h1>
+              <p class="pt-serif-regular-italic">"Wear Your Confidence."</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <!-- Used Carousel and inside that i used cards in grid system and 
+            worked on responsive breakpoints-->
+      <section>
+        <div class="container-fluid">
+          <h1 class="text-center pb-2">Featured Products</h1>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row mb-2">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/r/7/s/xxl-mens-staylist-lining-half-slleve-shirt-sti-original-imagw83zsw229zjq.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Men Regular&hellip;</h5>
+                        <h6 class="card-text">&#8377;339</h6>
+                        <p class="card-text">
+                          Printed Spread Collar Casual Shirt
+                        </p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add
+                          to cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 d-none d-md-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/dress/k/m/i/xxl-f-188-190-sumertex-original-imagj3p475kvxpau.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Women Fit&hellip;</h5>
+                        <h6 class="card-text">&#8377;299</h6>
+                        <p class="card-text">
+                          Women Fit and Flare Dark Blue Dress
+                        </p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add
+                          to cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/l/a/v/l-edrfgb-try-this-original-imagk9qezaadn5n4.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Full Sleeve &hellip;</h5>
+                        <h6 class="card-text">&#8377;405</h6>
+                        <p class="card-text">
+                          Men Full Sleeve Printed Hooded Sweatshirt
+                        </p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add
+                          to cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/0/r/n/9-12-months-blue-flower-6-12m-kp4-veekebi-original-imager74atzh4frq.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Baby Boys Party&hellip;</h5>
+                        <h6 class="card-text">&#8377;378</h6>
+                        <p class="card-text">
+                          Baby Boys Party(Festive) Jacket Pant (Blue)
+                        </p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add
+                          to cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row mb-2">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/0/r/n/9-12-months-blue-flower-6-12m-kp4-veekebi-original-imager74atzh4frq.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Baby Boys Party&hellip;</h5>
+                        <h6 class="card-text">&#8377;378</h6>
+                        <p class="card-text">
+                          Baby Boys Party(Festive) Jacket Pant (Blue)
+                        </p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add to
+                          cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 d-none d-md-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/e/s/z/30-tu1-vebnor-original-imagmy6hhhz62qzn.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Men Slim Fit Bla &hellip;</h5>
+                        <h6 class="card-text">&#8377;299</h6>
+                        <p class="card-text">Men Slim Fit Black Lycra Blend Trousers</p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add to
+                          cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/skirt/s/s/6/xl-rsvars229854-varanga-original-imafux8sbzywrcgq-bb.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Women Printed &hellip;</h5>
+                        <h6 class="card-text">&#8377;499</h6>
+                        <p class="card-text">Women Printed Tiered Multicolor Skirt</p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add to
+                          cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/l51d30w0/dress/h/a/w/xl-j0433-dr-janasya-original-imagfsu9ghjsjhgz.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Women Fit and&hellip;</h5>
+                        <h6 class="card-text">&#8377;799</h6>
+                        <p class="card-text">Women Fit and Flare Yellow Dress</p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add to
+                          cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row mb-2">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/d/3/w/2-3-years-bada-ankh-peach-and-sky-blue-top-and-bottom-cap-original-imagdy3hpubtz7tn-bb.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Girls Midi/Knee &hellip;</h5>
+                        <h6 class="card-text">&#8377;233</h6>
+                        <p class="card-text">
+                          Girls Midi/Knee Length Casual Dress (Light Blue, Sleeveless)
+                        </p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add to
+                          cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 d-none d-md-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/y/n/m/12-18-months-combo-3-t-hf12-gamer-mars-infiniti-original-imagtbkyu4k2xw2a.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Boys Casual T-s&hellip;</h5>
+                        <h6 class="card-text">&#8377;464</h6>
+                        <p class="card-text">Boys Casual T-shirt Shorts (Multicolor)</p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add to
+                          cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/l51d30w0/dress/h/a/w/xl-j0433-dr-janasya-original-imagfsu9ghjsjhgz.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Women Fit and&hellip;</h5>
+                        <h6 class="card-text">&#8377;799</h6>
+                        <p class="card-text">Women Fit and Flare Yellow Dress</p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add to
+                          cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-block col-lg-3">
+                    <div class="card">
+                      <img
+                        src="https://rukminim2.flixcart.com/image/612/612/kst9gnk0/trouser/d/9/g/m-105trpnk-iqraar-original-imag6amfwgpapftt.jpeg?q=70"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Women Regular&hellip;</h5>
+                        <h6 class="card-text">&#8377;381</h6>
+                        <p class="card-text">
+                          Women Regular Fit Pink Cotton Blend Trousers
+                        </p>
+                        <a href="#" class="btn btnP"
+                          ><i class="fa-solid fa-cart-shopping fa-sm"></i> Add to
+                          cart</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+                style="background-color: #000000;"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true" 
+                style="background-color: #000000;"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

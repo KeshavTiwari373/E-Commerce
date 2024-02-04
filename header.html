@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <!-- Used internal CSS. Made Body Flex type and set the vertical height of the body 
+          and allowed Main only to grow which made Header and footer stay at their position 
+            in all the pages when we fetch dynamically. -->
+    <style>
+      body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      main{
+        flex-grow: 1;
+      }
+      #search1 {
+        border-radius: 0 0 0 10px;
+      }
+      #btn1 {
+        border-radius: 0 10px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Used two nav to make this header and used only semantic tags -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid mx-4">
+          <a class="navbar-brand d-inline-flex me-3"
+            ><h3 class="brandname text-light me-5">Drest</h3></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button btn-outline-secondary"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <form class="d-flex mx-auto" role="search">
+              <input
+                id="search1"
+                class="form-control"
+                type="search"
+                placeholder="Product name, Category name, etc."
+                aria-label="Search"
+                size="40"
+              />
+              <button id="btn1" class="btn btn-outline-success" type="submit">
+                <strong>Search</strong>
+              </button>
+            </form>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html" title="Login">
+                  <button class="login my-sm-0 btn btn-success" type="button">
+                    Login
+                  </button>
+                </a>
+              </li>
+              <li class="nav-item mt-1">
+                <a class="nav-link" href=".cart.html" title="Cart">
+                  <i class="fa-solid fa-cart-shopping fa-xl fa-beat-fade" style="color: #6bddfd;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand bg-body-tertiary py-0">
+        <div class="container">
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav flex-wrap justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./allProduct.html">All Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Women
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./womenAllProduct.html">All Products</a></li>
+                  <li><a class="dropdown-item" href="./dresses.html">Dresses</a></li>
+                  <li><a class="dropdown-item" href="./womenPants.html">Pants</a></li>
+                  <li><a class="dropdown-item" href="./skirts.html">Skirts</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Men
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./menAllProduct.html">All Products</a></li>
+                  <li><a class="dropdown-item" href="./shirts.html">Shirts</a></li>
+                  <li><a class="dropdown-item" href="./menPants.html">Pants</a></li>
+                  <li><a class="dropdown-item" href="./hoodies.html">Hoodies</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./kids.html">Kids</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>

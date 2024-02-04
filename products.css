@@ -1,0 +1,21 @@
+.card {
+    height: 100%; /* Set a fixed height for the cards */
+  }
+
+  .card img {
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
+    height: 100%; /* Make sure the image fills the entire height of the card */
+  }
+  .btnP{
+    background-color: #6bddfd;
+  }
+  .btnP:hover{
+    border-color: #6bddfd;
+  }
+  .card-body{
+    text-align: center;
+  }
+
+div[class="col-sm-6 col-md-4 col-lg-2"]{
+  margin-bottom: 10px !important;
+}

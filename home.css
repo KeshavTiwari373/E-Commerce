@@ -1,0 +1,32 @@
+figure {
+  position: relative;
+  display: inline-block;
+}
+
+/* 
+to create full width cover image i used semantic tag figure 
+and inside that i placed image and slogan. 
+And with css class beautified it
+*/
+#img1 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.drest1{
+  font-size: 50px;
+}
+figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}

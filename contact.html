@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/d9f33d345d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Created using grid to make it responsive.
+          Used common CSS file for login and contact.
+            DRY. -->
+    <link rel="stylesheet" href="./logCon.css">
+    <script src="./common.js" defer></script>
+    <title>ContactUs</title>
+</head>
+<body>
+    <main>
+        <!-- used grid to make 2 sections and inside that i put all the content. -->
+        <div class="container">
+            <h2 class="lHeading">Contact Us</h2>
+            <div class="row">
+              <div class="col-lg-6 mb-3">
+                <img width="100%" src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29udGFjdHxlbnwwfHwwfHx8MA%3D%3D" alt="img">
+              </div>
+              <div class="col-lg-6">
+                <form>
+                    <div class="mb-2">
+                        <label for="inputName" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-2">
+                        <label for="inputEmail" class="form-label">Email address:</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter your E-mail">
+                    </div>
+                    <div class="mb-2">
+                        <label for="inputPhone" class="form-label">Phone Number:</label>
+                        <input type="tel" class="form-control" id="inputPhone" placeholder="Enter your phone no.">
+                    </div>
+                    <div class="mb-2">
+                        <label for="inputMessage" class="form-label">Message:</label><br>
+                        <textarea id="inputMessage" class="form-control" cols="100%" rows="1" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="mb-2">
+                        <input type="button" class="btn btn-success form-control" value="Submit">
+                    </div>
+                    
+                    
+                </form>
+              </div>
+            </div>
+        </div>
+    </main>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

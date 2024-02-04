@@ -1,0 +1,48 @@
+1) Made Header and footer files separate and included in all the pages using javascript
+   fetch method and also created header and footer dynamically using DOM createElement() method.
+   Removed bootstrap links from header and footer files to prevent overridden situation as i'm 
+   including bootstrap links in all the pages.
+
+2) used more and more semantic tags in all the pages. 
+    Also followed DRY method.
+    Created all the pages in this structure:
+
+        <Body>                made it Flex
+            <Header></Header> dynamically generated
+            <Main></Main>     only allowed main to flex-grow
+            <Footer></Footer> dynamically generated
+        </Body>
+
+    As i fetched Header dynamically and inside header file i included this using internal CSS
+        it getting applied to all the pages.
+
+3) there were 10 products pages and created them all separately and 
+    used common CSS file for all of them.
+    To get card of same height in each row i used the following CSS
+        .card {
+        height: 100%; /* Set a fixed height for the cards */
+        }
+
+        .card img {
+        object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
+        height: 100%; /* Make sure the image fills the entire height of the card */
+        }
+    Also used javascript to give value to all the "alt of the images" using DOM Manipulation.
+
+4) Contact and login pages like all other pages made using grid system and have a common CSS file.
+    Menu pages had 2 parts so created under 2 sections. 
+    All the pages are responsive for small, medium and large devices.
+    Cart page build using grid system and second part i created using float properties inside Grid column.
+
+5) Used padding and margin properties as per requirements like to separate cards 
+        and sections from header and footer.
+    Gave hover effect to the buttons.
+    Used more and more bootstrap classes to make it less complicated.
+    All the code files are neat, with structured folders, and comments added to
+        segregate the sections
+    Created all the given pages with relevant specifications as mentioned.
+
+
+
+
+
